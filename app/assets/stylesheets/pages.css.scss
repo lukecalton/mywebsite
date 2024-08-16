@@ -1,0 +1,51 @@
+// app/assets/stylesheets/pages.css.scss
+
+.main-header {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+
+    li {
+      display: inline;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.main-content {
+  padding: 40px 0;
+
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
